@@ -7,6 +7,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
 }
 
 h1 {
@@ -24,8 +25,9 @@ input {
   color: black;
   font-size: 1.2rem;
   outline: none;
-  padding: 10px 15px;
-  width: 100%;
+  padding: 5px 10px;
+  width: 70%;
+  margin: 5px 20px
 }
 
 h2 {
