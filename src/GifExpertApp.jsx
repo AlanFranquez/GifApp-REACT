@@ -28,9 +28,29 @@ export const GifExpertApp = () => {
   return (
     <>
         {/* TITULO */}
-        <h1>Hola Mundo</h1>
+        <h1>Giphy app</h1>
+
+        <div className="container">
+            <div className="textos">
+
+                <h4>Encuentra tu gif</h4>
+                <p>Busca el gif que más te guste y sea de tu agrado. Aplicación hecha con REACT HOOKS y testeada con JEST.</p>
+
+
+                
+
+                    <a href="#prueba"><button>EMPEZA AHORA</button></a>
+                
+            </div>
+
+            <div>
+                <img src={"../public/undraw_traveling_93jn.svg"} alt="imagen web" />
+            </div>
+
+        </div>
 
         {/* INPUT */}
+        <div id="prueba"></div>
         <AddCategory 
         onNewCategory={onAddCategory}/>
 

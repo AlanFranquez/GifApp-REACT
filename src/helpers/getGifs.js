@@ -5,14 +5,18 @@ export const getGifs = async(category) => {
     const datos = await resp.json();
     const {data} = datos;
 
-    // Extraemos la data
+
+    // Extraemos la data, se hace de esta forma porque todo esta en un arreglo
+
+
     const gifs = data.map((img) => {
         return {
             id: img.id,
+            url: img.images.downsized_medium.url,
             title: img.title,
-            url: img.images.downsized_medium.url
+            
         }
-    });
+    })
     
     console.log(gifs)
     return gifs;
