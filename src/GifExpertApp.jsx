@@ -1,6 +1,6 @@
 import { useState } from "react"
-import { AddCategory } from './components/AddCategory';
-import { GifGrid } from "./components/GifGrid";
+// Cuando en una carpeta existe un archivo index, entonces apunta autoaticamente a ese archivo, no es necesario especificarlo
+import { AddCategory, GifGrid } from './components';
 
 export const GifExpertApp = () => {
 
