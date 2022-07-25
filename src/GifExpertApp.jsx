@@ -43,9 +43,7 @@ export const GifExpertApp = () => {
                 
             </div>
 
-            <div>
-                <img src={"../public/undraw_traveling_93jn.svg"} alt="imagen web" />
-            </div>
+            
 
         </div>
 
