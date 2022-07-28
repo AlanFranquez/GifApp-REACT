@@ -1,3 +1,5 @@
+import Proptypes from 'prop-types'
+
 
 export const Gifitem = ({title, url}) => {
 
@@ -8,4 +10,9 @@ export const Gifitem = ({title, url}) => {
         <img src={url} alt={title}></img>
     </div>
   )
+}
+
+Gifitem.propTypes = {
+  title: Proptypes.string.isRequired,
+  url: Proptypes.string.isRequired
 }
